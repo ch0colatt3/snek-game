@@ -132,7 +132,7 @@ while True:
     #checking collision w border - die
     if head.xcor()>290 or head.xcor()<-290 or head.ycor()>290 or head.ycor()<-290:
        
-        gameover.write("Game Over (u gotta restart)", align="center",font=("Courier", 30, "normal", "italic", "bold"))
+        gameover.write("Game Over", align="center",font=("Courier", 30, "normal", "italic", "bold"))
      
         #time.sleep(1)
        
@@ -215,7 +215,9 @@ while True:
     #check for head collision with body -die
     for segment in segments:
         if segment.distance(head) <20: #overlapping
-            time.sleep(1)
+            
+            gameover.write("Game Over", align="center",font=("Courier", 30, "normal", "italic", "bold"))
+            
             head.goto(0,0) #respawn
             head.direction="stop"
 
