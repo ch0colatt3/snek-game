@@ -1,0 +1,12 @@
+I found a tutorial on youtube (by TokyoEdtech) to make this python game. I wanted to learn a little about python and test if I like it or not. 
+Tbh it can be annoying at times but I find it somewhat logical and simple to follow. 
+
+The tutorial did a great job explaining the function of each line of code especially how to create variables, 
+how to set keybinds & functions to move the snek, the "if, then" functions, the addition and reseting the segments (body + head). 
+
+I learned how to code in python using the turtle module, to draw the scores, to move, body, food, and the functions; the random module, 
+to randomly place the food in a coordinate point on the plane, and the time module to delay secs. 
+
+There were some challenges like making sure the indentations were correct and adding in some of my own code, which took a lot of time. 
+
+As my first oficial python project, I hope this was a success...
